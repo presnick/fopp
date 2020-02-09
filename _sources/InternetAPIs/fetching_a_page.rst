@@ -30,6 +30,7 @@ You don't need to use a browser to fetch the contents of a page, though.  In Pyt
     For illustration purposes, try visiting `<https://api.datamuse.com/words?rel_rhy=funny>`_ in your browser. It returns data in JSON format, not in HTML. Your browser will display the results, information about some words that rhyme with "funny", but it won't look like a normal web page. Then try running the code below to fetch the same text string in a python program. Try changing "funny" to some other word, both in the browser, and in the code below. You'll see that, either way, you are retrieving the same thing, the datamuse API's response to your request for words that rhyme with some word that you are sending as a query parameter.
 
 .. activecode:: ac27_1_1
+   :nocodelens:
 
    import requests
    import json
@@ -116,6 +117,7 @@ argument when calling ``request.get()``.
 Here's an executable sample, using the optional params parameter of ``requests.get``. It gets the same data from the datamus api that we saw previously. Here, however, the full url is built inside the call to ``requests.get``; we can see what url was built by printing it out, on line 5.
 
 .. activecode:: ac27_1_2
+   :nocodelens:
 
    import requests
 
