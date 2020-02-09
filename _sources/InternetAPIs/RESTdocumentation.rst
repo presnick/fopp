@@ -48,6 +48,7 @@ Defining a function to make repeated invocations
 Suppose you were writing a computer program that was going to automatically translate paragraphs of text into paragraphs with similar meanings but with more rhymes. You would want to contact the datamuse API repeatedly, passing different values associated with the key ``rel_rhy``. Let's make a python function to do that. You can think of it as a *wrapper* for the call to ``requests.get``.
 
 .. activecode:: ac200_3_1
+   :nocodelens:
 
     # import statements for necessary Python modules
     import requests
