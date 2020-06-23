@@ -219,6 +219,17 @@ Chapter Assessment
    myTests().main()
 
 
+.. activecode:: ac_jobe_directory_manipulatin
+   :language: python3
+   :autograde: unittest
+
+   Count the number of files in /exam. Assign it to the variable ``num_files``
+
+   ~~~~
+
+
+
+
 .. datafile:: SP500.txt
 
     Date,SP500,Dividend,Earnings,Consumer Price Index,Long Interest Rate,Real Price,Real Dividend,Real Earnings,PE10
