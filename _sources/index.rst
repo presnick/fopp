@@ -48,17 +48,6 @@
 Table of Contents
 :::::::::::::::::
 
-.. raw:: html
-
-   <ul>
-   <li><a href="/runestone/assignments/chooseAssignment.html">Assignments</a></li>
-   </ul>
-
-.. toctree::
-    :maxdepth: 1
-
-    FrontBackMatter/preface.rst
-
 .. toctree::
    :numbered:
    :maxdepth: 4
