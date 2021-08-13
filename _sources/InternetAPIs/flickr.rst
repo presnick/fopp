@@ -46,6 +46,7 @@ Below is some code that queries the flickr API for images that have a particular
     Searching for "mountains" and "rivers" usually produces beautiful images that are "safe for work", so the example below does that search. We have already cached a response for the particular search in the code window below. That allows the code to run even if you don't provide a valid flickr api_key. We've also checked to make sure that the five returned images are indeed safe for work. If you run this code outside of a browser, or if you do other searches, you will need to provide a valid flickr api_key.
 
 .. activecode:: ac27_10_1
+   :nocodelens:
 
     # import statements
     import requests_with_caching
