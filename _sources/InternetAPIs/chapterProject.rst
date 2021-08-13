@@ -17,6 +17,7 @@ Project - OMDB and TasteDive
     :autograde: unittest
     :language: python
     :practice: T
+    :nocodelens:
 
     This project will take you through the process of mashing up data from two different APIs to make movie recommendations. The TasteDive API lets you provide a movie (or bands, TV shows, etc.) as a query input, and returns a set of related items. The OMDB API lets you provide a movie title as a query input and get back data about the movie, including scores from various review sites (Rotten Tomatoes, IMDB, etc.).
 
@@ -84,6 +85,7 @@ Project - OMDB and TasteDive
     :autograde: unittest
     :language: python
     :practice: T
+    :nocodelens:
 
     Please copy the completed function from above into this active code window. Next, you will need to write a function that extracts just the list of movie titles from a dictionary returned by ``get_movies_from_tastedive``. Call it ``extract_movie_titles``.
     ~~~~
@@ -108,6 +110,7 @@ Project - OMDB and TasteDive
     :autograde: unittest
     :language: python
     :practice: T
+    :nocodelens:
 
     Please copy the completed functions from the two code windows above into this active code window. Next, you'll write a function, called ``get_related_titles``. It takes *a list of movie titles* as input. It gets five related movies for each from TasteDive, extracts the titles for all of them, and combines them all into a single list. Don't include the same movie twice.
     ~~~~
@@ -136,6 +139,7 @@ Project - OMDB and TasteDive
     :autograde: unittest
     :language: python
     :practice: T
+    :nocodelens:
 
     Your next task will be to fetch data from OMDB. The documentation for the API is at https://www.omdbapi.com/
 
@@ -169,6 +173,7 @@ Project - OMDB and TasteDive
     :autograde: unittest
     :language: python
     :practice: T
+    :nocodelens:
 
     Please copy the completed function from above into this active code window. Now write a function called ``get_movie_rating``. It takes an OMDB dictionary result for one movie and extracts the Rotten Tomatoes rating as an integer. For example, if given the OMDB dictionary for "Black Panther", it would return 97. If there is no Rotten Tomatoes rating, return 0.
     ~~~~
@@ -195,6 +200,7 @@ Project - OMDB and TasteDive
     :autograde: unittest
     :language: python
     :practice: T
+    :nocodelens:
 
     Now, you'll put it all together. Don't forget to copy all of the functions that you have previously defined into this code window. Define a function ``get_sorted_recommendations``. It takes a list of movie titles as an input. It returns a sorted list of related movie titles as output, up to five related movies for each input movie title. The movies should be sorted in descending order by their Rotten Tomatoes rating, as returned by the ``get_movie_rating`` function. Break ties in reverse alphabetic order, so that 'Yahşi Batı' comes before 'Eyyvah Eyvah'.
 
