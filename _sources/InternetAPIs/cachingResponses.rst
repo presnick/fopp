@@ -63,7 +63,7 @@ There are a couple of other optional parameters for the function ``requests_with
 * ``private_keys_to_ignore``-- its value should be a list of strings. These are keys from the parameters dictionary that should be ignored when deciding whether the current request matches a previous request. The main purpose of this is that it allows us to return a result from the cache for some REST APIs that would otherwise require you to provide an API key in order to make a request. By default, it is set to ["api_key"], which is a query parameter used with the flickr API. You should not need to set this optional parameter.
 
 .. activecode:: ac24_7_1
-   :nocodelens:
+    :nocodelens:
 
     import requests_with_caching
     # it's not found in the permanent cache

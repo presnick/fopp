@@ -103,7 +103,6 @@ final url might sometimes have the encoded key-value pairs in the other order: `
 form will accept the key-value pairs in any order.
 
 .. sourcecode:: python
-
     d = {'q': '"violins and guitars"', 'tbm': 'isch'}
     results = requests.get("https://google.com/search", params=d)
     print(results.url)

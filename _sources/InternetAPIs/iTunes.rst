@@ -72,7 +72,7 @@ Note that both entity *and* media are parameters we can use for this task. Entit
 Now, our code can now make a request to the iTunes API. We're using the request_with_caching module and providing a cached response to the query in the activecodes. You can try running different queries, but if the itunes webserver is inaccessible to you for one reason or another, it may not work.
 
 .. activecode:: ac27_9_1
-   :nocodelens:
+    :nocodelens:
 
     import requests_with_caching
     import json
@@ -85,7 +85,7 @@ Now, our code can now make a request to the iTunes API. We're using the request_
 With that result in hand, you will have to go through the process previously described as :ref:`Understand. Extract. Repeat. <debug_nested_chap>` . For example, to print out the names of all the podcasts returned, one could run the following code.
 
 .. activecode:: ac27_9_2
-   :nocodelens:
+    :nocodelens:
 
     import requests_with_caching
     import json
