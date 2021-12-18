@@ -22,6 +22,7 @@ Chapter Assessment
    
    For the subclass ``Grass_Pokemon``, add another method called ``action`` that returns the string ``"[name of pokemon] knows a lot of different moves!"``. Create an instance of this class with the ``name`` as ``"Belle"``. Assign this instance to the variable ``p1``.
    ~~~~
+
    class Pokemon(object):
        attack = 12
        defense = 10
@@ -101,6 +102,7 @@ Chapter Assessment
    
    To test, create an instance of the class with the name as ``"Bulby"``. Assign the instance to the variable ``p2``. Create another instance of the ``Grass_Pokemon`` class with the name set to ``"Pika"`` and assign that instance to the variable ``p3``. Then, use ``Grass_Pokemon`` methods to train the ``p3`` ``Grass_Pokemon`` instance until it reaches at least level 10.
    ~~~~
+
    class Pokemon(object):
        attack = 12
        defense = 10
@@ -185,6 +187,7 @@ Chapter Assessment
    
    For example, if the ``p_type`` of the subclass is ``'Grass'``, ``.opponent()`` should return the tuple ``('Fire', 'Water')``
    ~~~~
+
    class Pokemon():
        attack = 12
        defense = 10

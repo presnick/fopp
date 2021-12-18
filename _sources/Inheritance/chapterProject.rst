@@ -51,6 +51,7 @@ Project - Wheel of Python
     
     The ``time.sleep(s)`` function (from the ``time`` module) delays execution of the next line of code for ``s`` seconds. You'll find that we can build a little suspense during gameplay with some well-placed delays. The game can also be easier for users to understand if not everything happens instantly.
     ~~~~
+
     import time
     
     for x in range(2, 6):
@@ -68,6 +69,7 @@ Project - Wheel of Python
     * ``random.randint(min, max)`` generates a random number between ``min`` and ``max`` (inclusive)
     * ``random.choice(L)`` selects a random item from the list ``L``
     ~~~~
+
     import random
 
     rand_number = random.randint(1, 10)
@@ -89,6 +91,7 @@ Project - Wheel of Python
     * ``.count(s)`` counts how many times the string ``s`` occurs inside of a larger string
 
     ~~~~
+
     myString = 'Hello, World! 123'
 
     print(myString.upper()) # HELLO, WORLD! 123
@@ -114,6 +117,7 @@ Project - Wheel of Python
     Take some time to read their implementations below.
 
     ~~~~
+
     import json
     import random
     import time
@@ -317,6 +321,7 @@ Project - Wheel of Python
 
 
     ~~~~
+
     VOWEL_COST = 250
     LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     VOWELS = 'AEIOU'
@@ -463,6 +468,7 @@ Project - Wheel of Python
     **Note 2**: As you play, you will need to keep scrolling down to follow the game.
 
     ~~~~
+
     # PASTE YOUR WOFPlayer CLASS (from part A) HERE
     # PASTE YOUR WOFHumanPlayer CLASS (from part B) HERE
     # PASTE YOUR WOFComputerPlayer CLASS (from part C) HERE
