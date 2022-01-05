@@ -24,6 +24,7 @@ Exercises
 
               Fill in the left side of line 7 so that the following code runs without error
               ~~~~
+
               def circleInfo(r):
                   """ Return (circumference, area) of a circle of radius r """
                   c = 2 * 3.14159 * r
@@ -56,8 +57,8 @@ Contributed Exercises
 
 .. raw:: html
 
-    {{for q in questions:}}
+    {% for q in questions: %}
         <div class='oneq full-width'>
-            {{=XML(q['htmlsrc'], sanitize=False)}}
+            {{ q['htmlsrc']|safe }}
         </div>
-    {{pass}}
+    {% endfor %}
