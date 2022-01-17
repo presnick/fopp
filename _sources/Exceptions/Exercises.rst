@@ -87,11 +87,11 @@ Contributed Exercises
 
 .. raw:: html
 
-    {% for q in questions: %}
+    {{for q in questions:}}
         <div class='oneq full-width'>
-            {{ q['htmlsrc']|safe }}
+            {{=XML(q['htmlsrc'], sanitize=False)}}
         </div>
-    {% endfor %}
+    {{pass}}
 
 =======
      
