@@ -60,6 +60,7 @@ Chapter Assessment
 
 .. activecode:: assess_ac18_7_2a
     :language: python
+    :autograde: unittest    
     :practice: T
     :topics: Sorting/intro-SortingwithSortandSorted
 
@@ -82,6 +83,7 @@ Chapter Assessment
 
 .. activecode:: assess_ac18_7_2b
     :language: python
+    :autograde: unittest
     :practice: T
     :topics: Sorting/Optionalreverseparameter
 
@@ -105,6 +107,7 @@ Chapter Assessment
 
 .. activecode:: assess_ac18_7_2c
     :language: python
+    :autograde: unittest
     :practice: T
     :topics: Sorting/Optionalkeyparameter
 
