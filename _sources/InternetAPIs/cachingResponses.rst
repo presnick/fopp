@@ -88,7 +88,7 @@ You may find it useful to understand how this module works. The source code is n
 
     We have optimized this code for conceptual simplicity, so that it is useful as a teaching tool. It is not very efficient, because it always stores cached contents in a file, rather than saving it in memory. If you are ever implementing the caching pattern just for the duration of a program's run, you might want to save cached content in a python dictionary in memory rather than writing it to a file.
 
-The basic idea in the code is to maintain the cache as a dictionary with keys representing API requests that have been made, and values representing the text that was retrieved. In order to make our cache live beyond one program execution, we store it in a file. Hence, there are helper functions ``_write_to_file`` and ``read_to_file`` that write a cache dictionary to and read it from a file.
+The basic idea in the code is to maintain the cache as a dictionary with keys representing API requests that have been made, and values representing the text that was retrieved. In order to make our cache live beyond one program execution, we store it in a file. Hence, there are helper functions ``_write_to_file`` and ``read_from_file`` that write a cache dictionary to and read it from a file.
 
 In order for the textbook to provide a cache file that can't be overwritten, we distinguish between the permanent file, which is provided as part of the online textbook, and a temporary cache file that will live only until the page is reloaded.
 
