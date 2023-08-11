@@ -1,8 +1,10 @@
 
 .. _decorators:
 
-👩‍💻 Function Wrapping and Decorators
-=========================================
+Function Wrapping and Decorators
+=======================================
+
+This section introduces an advanced python concept called *function wrapping* and a special syntax for it called *decorators*. It is not necessary to use decorators in your programming, but they are an elegant way to do function wrapping, and it will be helpful for you to understand what they do when you see them in other people's code.
 
 In Python, functions are "first class" objects, meaning they can be treated like any other object. Beyond calling functions, we can also reference them, pass them as arguments to other functions, or return them. Although we cannot directly manipulate the *behavior* of a function, we can wrap it in another function that does something before or after the original function is called or change the arguments that a function takes. This is called *function wrapping*.
 
@@ -84,7 +86,10 @@ We can now easily "enable" or "disable" logging by commenting out the ``@addLogg
 
 To give another example, suppose we wanted to "password protect" access to calling a function. We could create a function ``passwordProtect`` that will wrap our function inside of code that ensures the user has the correct password.
 
+Try running the code below and entering the correct password (``password123``) when prompted. Then, try running the code again and entering an incorrect password. Notice that the ``printSecretMessage`` function is only called if the user enters the correct password.
+
 .. activecode:: ac15_6_4
+
     # This is a decorator function that takes another function as an argument.
     def passwordProtect(func):
 
@@ -114,4 +119,4 @@ To give another example, suppose we wanted to "password protect" access to calli
     # By adding the decorator, we prompt the user for a password before printing the secret message.
     printSecretMessage()
 
-Although this example is made up for illustration, this kind of function wrapping can be used in web applications protect access to sensitive pages. For example, code for a Web server might wrap code that transmits personal information with a decorator that checks if the user is logged in. Decorators give us a convenient syntax for modifying the behavior of functions we write.
+Although this example is made up for illustration, this kind of function wrapping can be used in web applications to protect access to sensitive pages. For example, code for a Web server might wrap code that transmits personal information with a decorator that checks if the user is logged in. Decorators give us a convenient syntax for modifying the behavior of functions we write.
