@@ -89,8 +89,7 @@ Contributed Exercises
         <div class='oneq full-width'>
             {{=XML(q['htmlsrc'], sanitize=False)}}
         </div>
-    {{pass}}
-
-=======
      
                myTests().main()
+=======
+    {% endfor %}
