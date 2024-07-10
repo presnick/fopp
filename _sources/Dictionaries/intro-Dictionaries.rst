@@ -130,7 +130,7 @@ The key ``'two'`` yields the value ``'dos'``. The key ``one`` yields the value `
    :autograde: unittest
    :practice: T
 
-   **4.** You are keeping track of olympic medals for Italy in the 2016 Rio Summer Olympics! At the moment, Italy has 7 gold medals, 8 silver metals, and 6 bronze medals. Create a dictionary called ``olympics`` where the keys are the types of medals, and the values are the number of that type of medals that Italy has won so far.
+   **4.** You are keeping track of olympic medals for Italy in the 2016 Rio Summer Olympics! At the moment, Italy has 7 gold medals, 8 silver medals, and 6 bronze medals. Create a dictionary called ``olympics`` where the keys are the types of medals, and the values are the number of that type of medals that Italy has won so far.
    ~~~~
 
    =====
@@ -155,8 +155,6 @@ The key ``'two'`` yields the value ``'dos'``. The key ``one`` yields the value `
 
             Every four years, the summer Olympics are held in a different country. Add a key-value pair to the dictionary ``places`` that reflects that the 2016 Olympics were held in Brazil. Do not rewrite the entire dictionary to do this!
             ~~~~
-
-
             places = {"Australia":2000, "Greece":2004, "China":2008, "England":2012}
 
             =====

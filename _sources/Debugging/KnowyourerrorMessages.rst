@@ -80,8 +80,8 @@ messages for the exercises in this book.
     :width: 600
     :align: center
 
-Nearly 90% of the error messages encountered for this problem are SyntaxError,
-TypeError, NameError, ValueError, or AttributeError. We will look at these errors in three stages:
+Most of the error messages encountered are SyntaxError,
+TypeError, NameError, or ValueError. We will look at these errors in three stages:
 
 * First we will define what these four error messages mean.
 * Then, we will look at some examples that cause these errors to occur.
@@ -113,7 +113,6 @@ See if you can figure out what caused them.
 
            Find and fix the error in the following code.
            ~~~~
-
            current_time_str = input("What is the current time (in hours 0-23)?")
            wait_time_str = input("How many hours do you want to wait"
 
@@ -170,7 +169,6 @@ something. In this case a right parenthesis.
 
            Find and fix the error in the following code.
            ~~~~
-
            current_time_str = input("What is the "current time" (in hours 0-23)?")
            wait_time_str = input("How many hours do you want to wait")
 
@@ -234,7 +232,7 @@ conclude that the problem must have something to do with the input function.
 TypeError
 ^^^^^^^^^
 
-TypeErrors occur when you you try to combine two objects that are not compatible. For
+TypeErrors occur when you try to combine two objects that are not compatible. For
 example you try to add together an integer and a string. Usually type errors can be
 isolated to lines that are using mathematical operators, and usually the line number
 given by the error message is an accurate indication of the line.

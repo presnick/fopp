@@ -33,9 +33,9 @@ Additionally, if the while condition is ``while True:`` and there is no break, t
 
     print("We have escaped.")
 
-Another case where an infinite loop is likely to occur is when you have reassiged the value of the variable used in the while statement in a way that prevents the loop from completing. This is an example below (if it takes too long, try reloading the page and stepping through this example in codelens):
+Another case where an infinite loop is likely to occur is when you have reassigned the value of the variable used in the while statement in a way that prevents the loop from completing. This is an example below. We're showing it in codelens, which stops the execution after a certain number of steps.
 
-.. activecode:: ac14_11_1
+.. codelens:: ac14_11_1
 
     b = 15
 
@@ -49,7 +49,7 @@ the value of 5 inside, on line 4. By the time 7 has been added to b on line 6, w
 check if b is less than 60. Because it isn't we again run line 4, and set the value of b to 5 
 again. There is no way to break out of this loop.
 
-Sometimes programs can take a while to run, so how can you determine if your code is just talking a while or if it is stuck inside an infinite loop? Print statements are for people, so take advantage of them! You can add print statements to keep track of how your variables are changing as the program processes the instructions given to them. Below is an example of an infinite loop. Try adding print statments to see where it's coming from. When you're done, check out the answer to see what our solution was. 
+Sometimes programs can take a while to run, so how can you determine if your code is just talking a while or if it is stuck inside an infinite loop? Print statements are for people, so take advantage of them! You can add print statements to keep track of how your variables are changing as the program processes the instructions given to them. Below is an example of an infinite loop. Try adding print statements to see where it's coming from. When you're done, check out the answer to see what our solution was.
 
 #.
 
